@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="indextest.css">
+        <link rel="stylesheet" href="./CSS/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+        <div id="banner">
+                <div class="nav">
+                        <div class="main-nav">
+                            <a class="hamburger-nav"></a>
+                            <ul class="menu">
+                        <a href="#"><li></i> Home</li></a>
+                          <a href="#"><li>How It Works</li></a>
+                                <a href="#"><li>FAQ</li></a>
+                                <a href="#"><li>Pricing</li></a>
+                          <a href="#"><li>Contact Us</li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+            <div id="nav">
+               
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">How It Works</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                
+                 
+                </div>
+                
+            
+                <h1>User-focused Website and Technology</h1>
+                <p>Quill is an independent Lagos based web design firm. <br/>We work with leading web technologies to create interactive, outstanding web experience.</p>
+        </div>
+        <nav>
+                <div id="nav">
+                    
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+            
+             
+            </div>
+            </nav>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>   
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+            $(document).ready(function(){
+        
+        $(".hamburger-nav").on("click", function(){
+        
+            // $(".menu").fadeToggle("slow").toggleClass("menu-hide");
+            $(".menu").animate({
+              height: 'toggle'
+            });
+        
+        });
+        
+        });
+        
+            </script>
+</body>
+</html>

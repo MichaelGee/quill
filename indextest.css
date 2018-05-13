@@ -1,0 +1,129 @@
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+#banner {
+  height: 37.5rem;
+  background-image: url("banner2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  #banner h1 {
+    color: #fff318;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 15%;
+    font-size: 3.125rem; }
+  #banner p {
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 1.4375rem; }
+
+/*Navbar*/
+#nav {
+  height: 50px; }
+  #nav ul {
+    float: right;
+    margin-right: 12px; }
+  #nav a {
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    cursor: pointer;
+    text-decoration: none !important; }
+  #nav ul, #nav li {
+    display: inline-block;
+    padding: 10px; }
+
+/*Dropdown Menu*/
+.nav {
+  background: #fff;
+  position: relative;
+  z-index: 1000;
+  display: none !important;
+  height: 50px; }
+  .nav .main-nav .hamburger-nav:after {
+    font-family: fontawesome;
+    content: "\f0c9";
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    cursor: pointer; }
+  .nav .main-nav .menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 101%;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden; }
+    .nav .main-nav .menu ul {
+      padding: 0px; }
+    .nav .main-nav .menu a {
+      display: block;
+      background: #fff;
+      text-decoration: none;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 0.5px solid rgba(200, 200, 200, 0.2); }
+      .nav .main-nav .menu a li {
+        color: black;
+        text-transform: uppercase;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 300;
+        font-size: 0.8rem;
+        letter-spacing: 1px; }
+      .nav .main-nav .menu a:hover {
+        background: black;
+        -webkit-transition: background 0.3s ease;
+        -o-transition: background 0.3s ease;
+        transition: background 0.3s ease; }
+        .nav .main-nav .menu a:hover li {
+          color: white; }
+
+@media screen and (max-width: 780px) {
+  .nav {
+    display: block !important; }
+  #nav, ul {
+    display: none; }
+  .nav .main-nav {
+    display: block; } }
+
+/*#nav{
+   
+    ul{ 
+        width: 100%;
+        text-align: center;
+    }
+    ul, li{
+        list-style: none;
+        display: inline-block;
+        padding: 0.625rem;
+    }
+    li{
+        width: 30%;
+        text-align: center;
+       
+    }
+    a{
+        color: black;
+        font-family: $mainFont;
+        cursor: pointer;
+        text-decoration: none !important;
+        font-size: 1.0625rem;
+        text-align: center;
+    }
+    
+}
+*/

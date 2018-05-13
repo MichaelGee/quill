@@ -1,0 +1,158 @@
+$mainFont : 'Oxygen', sans-serif;
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+#banner{
+    height:37.5rem;
+    background-image: url('banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h1{
+        color: #fff318;
+        font-family: 'IBM Plex Mono', monospace;
+        text-align: center;
+        max-width: 780px;
+        margin: 0 auto;
+        padding-top:15%;
+        font-size: 3.125rem;
+    }
+    p{
+        color: white;
+        font-family: $mainFont;
+        text-align: center;
+        max-width: 680px;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 1.4375rem;
+    }
+    
+}
+
+
+/*Navbar*/
+#nav{
+    height: 50px;
+    ul{
+        float: right;
+        margin-right: 12px;
+    }
+    a{
+        color: white;
+        font-family: $mainFont;
+        cursor: pointer;
+        text-decoration: none !important;
+    }
+    ul, li{
+        display: inline-block;
+        padding:10px;
+    }
+}
+
+/*Dropdown Menu*/
+.nav{
+    background: #fff;
+    position: relative;
+    z-index: 1000;
+    display: none !important;
+    height: 50px;
+    .main-nav{
+        .hamburger-nav{
+            &:after{
+                font-family: fontawesome;
+                content:"\f0c9";
+                color: black;
+                font-size: 1.5em;
+                position: absolute;
+                top: 11px;
+                right: 20px;
+                cursor: pointer;
+            }
+
+        }
+        .menu{
+            display: none;
+            list-style: none;
+            position: absolute;
+            top: 101%;
+            padding-left: 0;
+            width: 100%;
+            overflow: hidden;
+            ul{
+                padding: 0px;
+            }
+            a{
+                display: block;
+                background: #fff;
+                text-decoration: none;
+                text-align: center;
+                padding: 20px;
+                border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
+                li{
+                    color: black;
+                    text-transform:uppercase;
+                    font-family: $mainFont;
+                    font-weight: 300;
+                    font-size: 0.8rem;
+                    letter-spacing: 1px;
+                }
+                &:hover{
+                    background: black;
+                    transition: background 0.3s ease;
+                    li{
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 780px){
+    .nav{
+        display: block !important;
+        
+    }
+    #nav, ul{
+        display: none;
+    }
+    .nav .main-nav{
+        display: block;
+    }
+}
+
+/*#nav{
+   
+    ul{ 
+        width: 100%;
+        text-align: center;
+    }
+    ul, li{
+        list-style: none;
+        display: inline-block;
+        padding: 0.625rem;
+    }
+    li{
+        width: 30%;
+        text-align: center;
+       
+    }
+    a{
+        color: black;
+        font-family: $mainFont;
+        cursor: pointer;
+        text-decoration: none !important;
+        font-size: 1.0625rem;
+        text-align: center;
+    }
+    
+}
+*/
