@@ -10,19 +10,36 @@ nav{
 
 ul, li,.right{
     color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul, li,  .side-nav{
     color: #212121 !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2{
-    font-family: "Oxygen", sans-serif !important;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400 !important; 
+    color: #f7f7f7 !important;
 }
 
 h5{
     font-weight: 100 !important;
+    font-family: 'Open Sans', sans-serif;
+    color: #f7f7f7 !important;
+    font-weight: 400 !important;
+}
+
+.light{
+    color: #444444 !important;
+}
+
+h4{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fa-html5{
