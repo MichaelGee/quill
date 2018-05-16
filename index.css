@@ -21,18 +21,19 @@ ul, li,  .side-nav{
 h2{
     font-family: 'Roboto Slab', serif;
     font-weight: 400 !important; 
-    color: #f7f7f7 !important;
+    color: #f9f9f9 !important;
+    margin-top: 90px !important;
 }
 
 h5{
     font-weight: 100 !important;
     font-family: 'Open Sans', sans-serif;
-    color: #f7f7f7 !important;
+    color: #f9f9f9 !important;
     font-weight: 400 !important;
 }
 
 .light{
-    color: #444444 !important;
+    color: #333333 !important;
 }
 
 h4{
@@ -53,3 +54,25 @@ p{
     font-size: 5.000em !important;
 }
 
+
+.footer, .page-footer{
+    background-color :#303c42 !important; 
+}
+
+.footer-copyright{
+    background: #38454b !important;
+}
+
+#contact{
+    display: inline-block !important;
+}
+
+.email{
+    color: white !important;
+}
+/* Media queries */
+@media screen and (max-width: 370px){
+    #maint{
+        margin-left: -20px !important;
+    }
+}

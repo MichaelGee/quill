@@ -18,7 +18,7 @@
 
   <body>
     <!-- Navbar -->
-        <nav>
+        <nav id="nav">
                 <div class="navbar-fixed">
                   <a href="#!" class="brand-logo center">Quill</a>
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -26,7 +26,7 @@
                   <ul class="right hide-on-med-and-down">
                     <li><a href="sass.html">Pricing</a></li>
                     <li><a href="badges.html">Services</a></li>
-                    <li><a href="collapsible.html">About Us</a></li>
+                    <li><a href="#Contact">About Us</a></li>
                     <li><a href="collapsible.html">Contact Us</a></li>
                   </ul>
                 </div>
@@ -35,7 +35,6 @@
               <ul class="sidenav" id="mobile-demo">
                     <li><a href="sass.html">Pricing</a></li>
                     <li><a href="badges.html">Services</a></li>
-                    <li><a href="collapsible.html">About Us</a></li>
                     <li><a href="collapsible.html">Contact Us</a></li>
               </ul>
 
@@ -66,8 +65,8 @@
                     <li>
                       <img src="img/img3.jpg"> <!-- random image -->
                       <div class="caption center-align">
-                        <h2>After service Maintenance</h2>
-                        <h5 class=" ">We add and improve your website after deploying</h5>
+                        <h2 id="maint">Maintenance</h2>
+                        <h5 class="">We maintain and improve your website after deploying</h5>
                       </div>
                     </li>
                   </ul>
@@ -82,7 +81,7 @@
                             <i class="fab fa-html5"></i>
                         <h4>Best technologies</h4>
                         <p>We use the best technological
-                            tool for the creating beautiful and responsive websites.
+                            tool for creating beautiful and responsive websites.
                         </p>
                     </div>
                 </div>
@@ -90,7 +89,7 @@
                         <div class="card-panel">
                                 <i class="fab fa-wordpress"></i>
                             <h4>Custom wordpress</h4>
-                            <p>We create the custom wordpress websites
+                            <p>We create custom Wordpress websites
                                 to your tailored taste.
                             </p>
                         </div>
@@ -107,7 +106,33 @@
         </div>
     </section>
 
-            
+    <section class="footer">
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Contact Us</h5>
+              <ul id="Contact">
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Twitter</i></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
+                <p class="email">You can also send a mail to us at quillcompany@gmail.com</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Quill, All Rights Reserved
+          <a class="grey-text text-lighten-4 right" href="#nav">Back to top</a>
+          </div>
+        </div>
+      </footer>
+    </section>
  
 
 
@@ -132,7 +157,7 @@
       indicators: false,
       height: 500,
       transition: 100,
-      interval: 6000
+      interval: 5000
   });
     </script>
   </body>
