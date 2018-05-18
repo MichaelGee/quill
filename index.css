@@ -36,6 +36,11 @@ h5{
     color: #333333 !important;
 }
 
+.card-panel{
+    height: 350px !important;
+}
+
+
 h4{
     font-family: 'Roboto Slab', serif;
 }

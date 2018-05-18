@@ -1,0 +1,28 @@
+nav{
+    background: #212121 !important;
+   
+ }
+ 
+ .brand-logo{
+     color: yellow !important;
+     font-family: 'IBM Plex Mono', monospace !important;
+ }
+ 
+ ul, li,.right{
+     color: #ffffff !important;
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ ul, li,.side-nav{
+     color: #212121 !important;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+#card{
+    width: 100% !important;
+    background: white !important;
+}
+
+#headtext, h2{
+    text-align: center;
+}
