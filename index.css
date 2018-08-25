@@ -40,6 +40,11 @@ h5{
     height: 350px !important;
 }
 
+.card-panel:hover{
+    background: yellow;
+    transition: .8s;
+}
+
 
 h4{
     font-family: 'Roboto Slab', serif;
